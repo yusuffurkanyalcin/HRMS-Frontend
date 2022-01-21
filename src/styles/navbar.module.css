@@ -1,0 +1,58 @@
+
+.dropdownMenu{
+    min-width: 100px !important;
+}
+.dropdownMenu .employerButtonItem {
+  text-align: center !important;
+  width: 100px !important;
+}
+
+.container {
+  margin-top: 1rem !important;
+  padding: 0 !important;
+  -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
+  -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
+}
+.leftNavItem button{
+    margin-right: 15px !important;
+    margin-top: 5px !important;
+    border-radius: 10px !important;
+    
+}
+
+.hrmsLogo{
+  border-right: 1px solid silver !important;
+  margin-right: 10px !important;
+  border-radius: 0px !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  margin-left: 25px;
+  color: darkmagenta !important;
+  font-size: 26px !important;
+}
+
+.nav{
+    justify-content: end !important;
+    margin-right: 100px !important;
+    align-items: center;
+}
+
+
+
+.leftButton{
+  border-right: 1px solid silver !important;
+  margin-right: 10px !important;
+  border-radius: 0px !important;
+  padding: 0 30px;
+  color: #979797 !important;
+}
+
+.searchIcon{
+    margin-left: 10px;
+}
+
+.searchJob{
+    font-weight: bolder !important;
+    color: black !important;
+    font-family: sans-serif ;
+}
