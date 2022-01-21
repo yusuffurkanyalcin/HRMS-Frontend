@@ -35,6 +35,7 @@ export default function Navbar() {
             className="px-4 navButton "
             variant="outline-danger"
             size="md"
+           
           >
             ÜYE OL
           </Button>
