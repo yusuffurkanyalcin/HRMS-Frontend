@@ -10,6 +10,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import styles from "../styles/navbar.module.css";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <Container fluid className={styles.container}>
@@ -30,7 +31,7 @@ export default function Navbar() {
             Pozisyon Rehberi
           </Button>
         </Nav.Item>
-        <Nav.Item className={styles.leftNavItem}>
+        <Nav.Item className={styles.rightNavItem}>
           <Button
             className="px-4 navButton "
             variant="outline-danger"
@@ -40,12 +41,13 @@ export default function Navbar() {
             ÜYE OL
           </Button>
         </Nav.Item>
-        <Nav.Item className={styles.leftNavItem}>
+        <Nav.Item className={styles.rightNavItem}>
           <Button className=" px-3 " variant="outline-danger" size="md">
-            ÜYE GİRİŞİ
+            <Link to="/signin">ÜYE GİRİŞİ</Link>
+            
           </Button>
         </Nav.Item>
-        <Nav.Item className={styles.leftNavItem}>
+        <Nav.Item className={styles.rightNavItem}>
           <DropdownButton title="İşveren" align="end" size="md">
             <Dropdown.Item href="#/action1">Giriş Yap</Dropdown.Item>
             <Dropdown.Divider />

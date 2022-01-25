@@ -8,10 +8,7 @@ export default function Categories() {
 
   return (
     <div className="container">
-      <div style={{maxWidth:"540px"}} className={styles.firtCard}>
-        <div>aeaweqwe</div>
-      </div>
-      <br/>
+      
       <div className="card mb-3 " style={{maxWidth:"540px"}}>
         <div className="row g-0">
           <div className="col-md-7">

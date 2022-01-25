@@ -14,12 +14,18 @@
   -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
   box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
 }
-.leftNavItem button{
+.rightNavItem button{
     margin-right: 15px !important;
     margin-top: 5px !important;
     border-radius: 10px !important;
-    
+
 }
+
+.rightNavItem button :link{
+  text-decoration: none !important;
+  color: red !important;
+}
+
 
 .hrmsLogo{
   border-right: 1px solid silver !important;
