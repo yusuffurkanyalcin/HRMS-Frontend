@@ -1,0 +1,16 @@
+.card{
+    width: 18rem;
+}
+
+.card:hover{
+    border-color: black !important;
+    
+}
+
+.firtCard{
+    background-image: url("../images/manager.jpg") ;
+    border: 2px solid black;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: 310px 216px ;
+}
