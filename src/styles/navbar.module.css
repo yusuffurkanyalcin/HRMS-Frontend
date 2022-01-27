@@ -1,6 +1,5 @@
-
-.dropdownMenu{
-    min-width: 100px !important;
+.dropdownMenu {
+  min-width: 100px !important;
 }
 .dropdownMenu .employerButtonItem {
   text-align: center !important;
@@ -14,38 +13,60 @@
   -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
   box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75) !important;
 }
-.rightNavItem button{
-    margin-right: 15px !important;
-    margin-top: 5px !important;
-    border-radius: 10px !important;
-
+.rightNavItem button {
+  margin-right: 15px !important;
+  margin-top: 5px !important;
+  border-radius: 10px !important;
 }
 
-.rightNavItem button :link{
-  text-decoration: none !important;
-  color: red !important;
-}
-
-
-.hrmsLogo{
+.hrmsLogo {
   border-right: 1px solid silver !important;
   margin-right: 10px !important;
   border-radius: 0px !important;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
   margin-left: 25px;
-  color: darkmagenta !important;
   font-size: 26px !important;
 }
 
-.nav{
-    justify-content: end !important;
-    margin-right: 100px !important;
-    align-items: center;
+.hrmsLink:focus,
+:hover,
+:visited,
+:link,
+:active {
+  text-decoration: none !important;
+  color: darkmagenta !important;
 }
 
+.nav {
+  justify-content: end !important;
+  margin-right: 100px !important;
+  align-items: center;
+}
+.candidateSigninLink {
+  color: red !important;
+}
 
+.candidateSignupButton:hover {
+  color: white !important;
+}
 
-.leftButton{
+.employerDropdownButton:hover {
+  color: white !important;
+}
+
+.candidateSigninLink:focus,
+:hover,
+:visited,
+:link,
+:active {
+  text-decoration: none !important;
+}
+
+.candidateSigninButton:hover .candidateSigninLink {
+  color: white !important;
+}
+
+.leftButton {
   border-right: 1px solid silver !important;
   margin-right: 10px !important;
   border-radius: 0px !important;
@@ -53,12 +74,12 @@
   color: #979797 !important;
 }
 
-.searchIcon{
-    margin-left: 10px;
+.searchIcon {
+  margin-left: 10px;
 }
 
-.searchJob{
-    font-weight: bolder !important;
-    color: black !important;
-    font-family: sans-serif ;
+.searchJob {
+  font-weight: bolder !important;
+  color: black !important;
+  font-family: sans-serif;
 }

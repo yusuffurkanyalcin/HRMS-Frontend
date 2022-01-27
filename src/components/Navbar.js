@@ -17,11 +17,16 @@ export default function Navbar() {
       <Nav className={styles.nav} activeKey="/#">
         <Nav.Item className="me-auto p-2 bd-highlight">
           <Button variant="otline-light" className={styles.hrmsLogo}>
-            HRMS.net
+            <Link to="/" className={styles.hrmsLink}>
+              HRMS.net
+            </Link>
           </Button>
-          <Button variant="otline-light" className={`${styles.leftButton} ${styles.searchJob}`}>
+          <Button
+            variant="otline-light"
+            className={`${styles.leftButton} ${styles.searchJob}`}
+          >
             İş Ara
-            <FontAwesomeIcon icon={faSearch} className={styles.searchIcon}/>
+            <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
           </Button>
 
           <Button variant="otline-light" className={styles.leftButton}>
@@ -33,22 +38,31 @@ export default function Navbar() {
         </Nav.Item>
         <Nav.Item className={styles.rightNavItem}>
           <Button
-            className="px-4 navButton "
+            className={styles.candidateSignupButton + " px-4"}
             variant="outline-danger"
             size="md"
-           
           >
             ÜYE OL
           </Button>
         </Nav.Item>
         <Nav.Item className={styles.rightNavItem}>
-          <Button className=" px-3 " variant="outline-danger" size="md">
-            <Link to="/signin">ÜYE GİRİŞİ</Link>
-            
+          <Button
+            className={styles.candidateSigninButton}
+            variant="outline-danger"
+            size="md"
+          >
+            <Link to="/signin" className={styles.candidateSigninLink}>
+              ÜYE GİRİŞİ
+            </Link>
           </Button>
         </Nav.Item>
         <Nav.Item className={styles.rightNavItem}>
-          <DropdownButton title="İşveren" align="end" size="md">
+          <DropdownButton
+            title="İşveren"
+            className={styles.employerDropdownButton}
+            align="end"
+            size="md"
+          >
             <Dropdown.Item href="#/action1">Giriş Yap</Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item href="#/action2">Kayıt Ol</Dropdown.Item>
