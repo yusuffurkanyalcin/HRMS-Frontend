@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dash />} />
+        <Route path="/*" element={<Dash />} />
         <Route path="signin" element={<SigninCandidate />} />
       </Routes>
     </div>

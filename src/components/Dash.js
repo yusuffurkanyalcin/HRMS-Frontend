@@ -1,5 +1,7 @@
 import React from "react";
+import { Routes ,Route} from "react-router-dom";
 import Filters from "./Filters";
+import JobAdvertisements from "./JobAdvertisements";
 import SearchJob from "./SearchJob";
 
 export default function Dash() {
@@ -11,7 +13,13 @@ export default function Dash() {
         <div className="col-md-2">
           <Filters />
         </div>
-        <div className="col-md-10"></div>
+        <div className="col-md-10">
+          <div className="container">
+          <Routes>
+            <Route path="/" element={<JobAdvertisements/>} />
+          </Routes>
+          </div>
+        </div>
       </div>
     </div>
   );
